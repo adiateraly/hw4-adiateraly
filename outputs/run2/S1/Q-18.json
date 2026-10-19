@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-18",
+  "final_text": "ANSWER: yes | 399?",
+  "answer": [
+    "yes",
+    399.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2294,
+  "output_tokens": 10,
+  "seconds": 1.536,
+  "correct": false
+}

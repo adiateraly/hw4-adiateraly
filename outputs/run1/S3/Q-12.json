@@ -1,0 +1,184 @@
+{
+  "strategy": "S3",
+  "question_id": "Q-12",
+  "final_text": "Tarnvale works out higher, by 64.4 thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.4",
+  "answer": [
+    "tarnvale",
+    64.4
+  ],
+  "unanswered": false,
+  "input_tokens": 3127,
+  "output_tokens": 173,
+  "seconds": 4.763,
+  "calls": [
+    {
+      "round": 1,
+      "tool_call_id": "call_E0VLGnHLWz5jdXLm4TVT4N38",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"budget_million_tenge\"}",
+      "result": {
+        "district": "Harrowfield",
+        "field": "budget_million_tenge",
+        "value": 16021.7,
+        "unit": "million tenge",
+        "source": "NR-07"
+      },
+      "seconds": 5.5e-05
+    },
+    {
+      "round": 1,
+      "tool_call_id": "call_0Zk69eCeWWVxJsDBEtxjCVg0",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"pupils\"}",
+      "result": {
+        "district": "Harrowfield",
+        "field": "pupils",
+        "value": 13904,
+        "unit": "pupils",
+        "source": "NR-07"
+      },
+      "seconds": 3.1e-05
+    },
+    {
+      "round": 1,
+      "tool_call_id": "call_Rsx9yoOFqNdZ0DDxlSvk9NF9",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Tarnvale\", \"field\": \"budget_million_tenge\"}",
+      "result": {
+        "district": "Tarnvale",
+        "field": "budget_million_tenge",
+        "value": 12960.3,
+        "unit": "million tenge",
+        "source": "NR-03"
+      },
+      "seconds": 2.3e-05
+    },
+    {
+      "round": 1,
+      "tool_call_id": "call_JG9DHw7PENCCgx9Nwrwzaxnd",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Tarnvale\", \"field\": \"pupils\"}",
+      "result": {
+        "district": "Tarnvale",
+        "field": "pupils",
+        "value": 10652,
+        "unit": "pupils",
+        "source": "NR-03"
+      },
+      "seconds": 5.9e-05
+    },
+    {
+      "round": 2,
+      "tool_call_id": "call_1Z4QyLr0WzUqDGOvdRFIHUP0",
+      "tool": "calculate",
+      "arguments": "{\"expression\":\"16021.7*1000/13904-12960.3*1000/10652\"}",
+      "result": {
+        "expression": "16021.7*1000/13904-12960.3*1000/10652",
+        "result": -64.3924008501
+      },
+      "seconds": 0.000147
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "input_tokens": 824,
+      "output_tokens": 107,
+      "tool_calls": 4
+    },
+    {
+      "round": 2,
+      "input_tokens": 1110,
+      "output_tokens": 36,
+      "tool_calls": 1
+    },
+    {
+      "round": 3,
+      "input_tokens": 1193,
+      "output_tokens": 30,
+      "tool_calls": 0
+    }
+  ],
+  "number_of_rounds": 3,
+  "hit_round_limit": false,
+  "conversation": [
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_E0VLGnHLWz5jdXLm4TVT4N38",
+          "function": {
+            "arguments": "{\"district\": \"Harrowfield\", \"field\": \"budget_million_tenge\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_0Zk69eCeWWVxJsDBEtxjCVg0",
+          "function": {
+            "arguments": "{\"district\": \"Harrowfield\", \"field\": \"pupils\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_Rsx9yoOFqNdZ0DDxlSvk9NF9",
+          "function": {
+            "arguments": "{\"district\": \"Tarnvale\", \"field\": \"budget_million_tenge\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_JG9DHw7PENCCgx9Nwrwzaxnd",
+          "function": {
+            "arguments": "{\"district\": \"Tarnvale\", \"field\": \"pupils\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_E0VLGnHLWz5jdXLm4TVT4N38",
+      "content": "{\"district\": \"Harrowfield\", \"field\": \"budget_million_tenge\", \"value\": 16021.7, \"unit\": \"million tenge\", \"source\": \"NR-07\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_0Zk69eCeWWVxJsDBEtxjCVg0",
+      "content": "{\"district\": \"Harrowfield\", \"field\": \"pupils\", \"value\": 13904, \"unit\": \"pupils\", \"source\": \"NR-07\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Rsx9yoOFqNdZ0DDxlSvk9NF9",
+      "content": "{\"district\": \"Tarnvale\", \"field\": \"budget_million_tenge\", \"value\": 12960.3, \"unit\": \"million tenge\", \"source\": \"NR-03\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_JG9DHw7PENCCgx9Nwrwzaxnd",
+      "content": "{\"district\": \"Tarnvale\", \"field\": \"pupils\", \"value\": 10652, \"unit\": \"pupils\", \"source\": \"NR-03\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_1Z4QyLr0WzUqDGOvdRFIHUP0",
+          "function": {
+            "arguments": "{\"expression\":\"16021.7*1000/13904-12960.3*1000/10652\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1Z4QyLr0WzUqDGOvdRFIHUP0",
+      "content": "{\"expression\": \"16021.7*1000/13904-12960.3*1000/10652\", \"result\": -64.3924008501}"
+    }
+  ],
+  "correct": true
+}

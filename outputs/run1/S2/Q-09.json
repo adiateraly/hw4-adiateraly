@@ -1,0 +1,79 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-09",
+  "final_text": "Brightwater density: 44,675 ÷ 921.4 = 48.5 residents per square kilometre.  \nMillbrook density: 37,203 ÷ 758.6 = 49.0 residents per square kilometre.  \nMillbrook has the higher population density by 0.5 residents per square kilometre.\n\nANSWER: Millbrook | 0.5",
+  "answer": [
+    "millbrook",
+    0.6
+  ],
+  "unanswered": false,
+  "input_tokens": 11390,
+  "output_tokens": 447,
+  "seconds": 9.95,
+  "samples": [
+    {
+      "text": "Brightwater’s 2025 population density is \\(44,675 \\div 921.4 \\approx 48.5\\) residents per square kilometre. Millbrook’s is \\(37,203 \\div 758.6 \\approx 49.0\\). Therefore, Millbrook has the higher density by approximately \\(0.5\\) residents per square kilometre.\n\nANSWER: Millbrook | 0.5",
+      "answer": [
+        "millbrook",
+        0.5
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 89
+    },
+    {
+      "text": "Population density is calculated as 2025 population divided by area.\n\n- Brightwater: 44,675 ÷ 921.4 = 48.5 residents per square kilometre\n- Millbrook: 37,203 ÷ 758.6 = 49.1 residents per square kilometre\n\nMillbrook has the higher population density by 0.6 residents per square kilometre.\n\nANSWER: Millbrook | 0.6",
+      "answer": [
+        "millbrook",
+        0.6
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 93
+    },
+    {
+      "text": "Brightwater’s 2025 population density is 44,675 ÷ 921.4 ≈ 48.5 residents per square kilometre. Millbrook’s is 37,203 ÷ 758.6 ≈ 49.1 residents per square kilometre. Millbrook is higher by approximately 0.6 residents per square kilometre.\n\nANSWER: Millbrook | 0.6",
+      "answer": [
+        "millbrook",
+        0.6
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 85
+    },
+    {
+      "text": "Brightwater’s 2025 population density is \\(44,675 \\div 921.4 \\approx 48.5\\) residents per square kilometre. Millbrook’s is \\(37,203 \\div 758.6 \\approx 49.1\\). Therefore, Millbrook has the higher density by \\(49.1 - 48.5 = 0.6\\) residents per square kilometre.\n\nANSWER: Millbrook | 0.6",
+      "answer": [
+        "millbrook",
+        0.6
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 98
+    },
+    {
+      "text": "Brightwater density: 44,675 ÷ 921.4 = 48.5 residents per square kilometre.  \nMillbrook density: 37,203 ÷ 758.6 = 49.0 residents per square kilometre.  \nMillbrook has the higher population density by 0.5 residents per square kilometre.\n\nANSWER: Millbrook | 0.5",
+      "answer": [
+        "millbrook",
+        0.5
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 82
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "millbrook",
+        0.6
+      ],
+      "votes": 3
+    },
+    {
+      "answer": [
+        "millbrook",
+        0.5
+      ],
+      "votes": 2
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

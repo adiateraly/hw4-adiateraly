@@ -1,0 +1,72 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-06",
+  "final_text": "Redfen and Kelmarsh together had 20,934 + 24,117 = 45,051 residents in 2025. Ossford had 30,982 residents. The combined population was larger by 14,069 residents.\n\nANSWER: yes | 14069",
+  "answer": [
+    "yes",
+    14069.0
+  ],
+  "unanswered": false,
+  "input_tokens": 11420,
+  "output_tokens": 279,
+  "seconds": 7.186,
+  "samples": [
+    {
+      "text": "Redfen and Kelmarsh together have 20,934 + 24,117 = 45,051 residents. Ossford has 30,982 residents. The combined population is larger by 14,069 residents.\n\nANSWER: yes | 14069",
+      "answer": [
+        "yes",
+        14069.0
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 55
+    },
+    {
+      "text": "Redfen and Kelmarsh together had 20,934 + 24,117 = 45,051 residents in 2025. Ossford had 30,982 residents. The combined population was larger by 14,069 residents.\n\nANSWER: yes | 14069",
+      "answer": [
+        "yes",
+        14069.0
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 59
+    },
+    {
+      "text": "Redfen and Kelmarsh together had 45,051 residents in 2025. Ossford had 30,982 residents, so the combined population was larger by 14,069 residents.\n\nANSWER: yes | 14069",
+      "answer": [
+        "yes",
+        14069.0
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 50
+    },
+    {
+      "text": "Redfen and Kelmarsh together have 20,934 + 24,117 = 45,051 residents. Ossford has 30,982 residents, so the combined population is larger by 14,069 residents.\n\nANSWER: yes | 14069",
+      "answer": [
+        "yes",
+        14069.0
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 56
+    },
+    {
+      "text": "Redfen and Kelmarsh together had 20,934 + 24,117 = 45,051 residents in 2025. Ossford had 30,982 residents. The combined population was larger by 14,069 residents.\n\nANSWER: yes | 14069",
+      "answer": [
+        "yes",
+        14069.0
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 59
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "yes",
+        14069.0
+      ],
+      "votes": 5
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

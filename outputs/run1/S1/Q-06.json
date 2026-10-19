@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-06",
+  "final_text": "ANSWER: yes | 8071",
+  "answer": [
+    "yes",
+    8071.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2277,
+  "output_tokens": 10,
+  "seconds": 1.273,
+  "correct": false
+}

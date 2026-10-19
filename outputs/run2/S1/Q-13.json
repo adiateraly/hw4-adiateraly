@@ -1,0 +1,11 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-13",
+  "final_text": "Coldharbour | 4.16",
+  "answer": null,
+  "unanswered": true,
+  "input_tokens": 2282,
+  "output_tokens": 11,
+  "seconds": 0.94,
+  "correct": false
+}

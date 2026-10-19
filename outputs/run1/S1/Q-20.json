@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-20",
+  "final_text": "Harrowfield had the largest budget per resident; it exceeded Ashgrove by 36 tenge per resident.\n\nANSWER: Harrowfield | 36",
+  "answer": [
+    "harrowfield",
+    36.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2284,
+  "output_tokens": 34,
+  "seconds": 1.225,
+  "correct": false
+}

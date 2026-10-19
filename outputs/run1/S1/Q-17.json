@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-17",
+  "final_text": "Harrowfield; the tariff cancels when comparing. Per resident: Harrowfield = 7,146,000 ÷ 90,212 = 79.2 m³; Ossbridge = 3,862,000 ÷ 52,904 = 73.0 m³. Difference in water use = 6.2 m³ × 142.35 = 884. ANSWER: Harrowfield | 884",
+  "answer": [
+    "harrowfield",
+    884.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2283,
+  "output_tokens": 93,
+  "seconds": 1.797,
+  "correct": true
+}

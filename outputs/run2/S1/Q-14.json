@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-14",
+  "final_text": "Tarnvale; 6.2 litres per resident per day more.\nANSWER: Tarnvale | 6.2",
+  "answer": [
+    "tarnvale",
+    6.2
+  ],
+  "unanswered": false,
+  "input_tokens": 2277,
+  "output_tokens": 27,
+  "seconds": 1.105,
+  "correct": false
+}

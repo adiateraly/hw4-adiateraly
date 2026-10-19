@@ -1,0 +1,86 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-13",
+  "final_text": "Stonecairn lost the largest percentage of its population. Its decrease was 547 out of 15,473, or 3.53%.\n\nANSWER: Stonecairn | 3.53",
+  "answer": [
+    "coldharbour",
+    4.16
+  ],
+  "unanswered": false,
+  "input_tokens": 11445,
+  "output_tokens": 468,
+  "seconds": 9.313,
+  "samples": [
+    {
+      "text": "Stonecairn lost the largest percentage: its population fell by 547 from 15,473 to 14,926, which is \\(547 ÷ 15,473 × 100 = 3.54\\%\\).\n\nANSWER: Stonecairn | 3.54",
+      "answer": [
+        "stonecairn",
+        3.54
+      ],
+      "input_tokens": 2289,
+      "output_tokens": 61
+    },
+    {
+      "text": "Population losses as percentages of the 2020 census population:\n\n- Ossford: \\(578 / 31,560 \\times 100 = 1.83\\%\\)\n- Stonecairn: \\(547 / 15,473 \\times 100 = 3.54\\%\\)\n- Coldharbour: \\(495 / 11,902 \\times 100 = 4.16\\%\\)\n\nColdharbour had the largest percentage loss.\n\nANSWER: Coldharbour | 4.16",
+      "answer": [
+        "coldharbour",
+        4.16
+      ],
+      "input_tokens": 2289,
+      "output_tokens": 106
+    },
+    {
+      "text": "Population percentage loss:\n\n- Ossford: \\( (31,560 - 30,982) / 31,560 \\times 100 \\approx 1.83\\% \\)\n- Stonecairn: \\( (15,473 - 14,926) / 15,473 \\times 100 \\approx 3.53\\% \\)\n- Coldharbour: \\( (11,902 - 11,407) / 11,902 \\times 100 \\approx 4.16\\% \\)\n\nColdharbour lost the largest percentage.\n\nANSWER: Coldharbour | 4.16",
+      "answer": [
+        "coldharbour",
+        4.16
+      ],
+      "input_tokens": 2289,
+      "output_tokens": 130
+    },
+    {
+      "text": "Population percentage losses:\n\n- Ossford: \\( (31,560 - 30,982) / 31,560 \\times 100 = 1.83\\% \\)\n- Stonecairn: \\( (15,473 - 14,926) / 15,473 \\times 100 = 3.53\\% \\)\n- Coldharbour: \\( (11,902 - 11,407) / 11,902 \\times 100 = 4.16\\% \\)\n\nColdharbour lost the largest percentage.\n\nANSWER: Coldharbour | 4.16",
+      "answer": [
+        "coldharbour",
+        4.16
+      ],
+      "input_tokens": 2289,
+      "output_tokens": 127
+    },
+    {
+      "text": "Stonecairn lost the largest percentage of its population. Its decrease was 547 out of 15,473, or 3.53%.\n\nANSWER: Stonecairn | 3.53",
+      "answer": [
+        "stonecairn",
+        3.53
+      ],
+      "input_tokens": 2289,
+      "output_tokens": 44
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "coldharbour",
+        4.16
+      ],
+      "votes": 3
+    },
+    {
+      "answer": [
+        "stonecairn",
+        3.54
+      ],
+      "votes": 1
+    },
+    {
+      "answer": [
+        "stonecairn",
+        3.53
+      ],
+      "votes": 1
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

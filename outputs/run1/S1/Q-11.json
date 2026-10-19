@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-11",
+  "final_text": "ANSWER: Redfen | 194.03",
+  "answer": [
+    "redfen",
+    194.03
+  ],
+  "unanswered": false,
+  "input_tokens": 2286,
+  "output_tokens": 12,
+  "seconds": 1.055,
+  "correct": false
+}

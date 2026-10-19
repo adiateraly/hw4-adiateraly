@@ -1,0 +1,11 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-01",
+  "final_text": "Ossbridge | 5.2",
+  "answer": null,
+  "unanswered": true,
+  "input_tokens": 2271,
+  "output_tokens": 11,
+  "seconds": 1.263,
+  "correct": false
+}

@@ -1,0 +1,86 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-15",
+  "final_text": "Kelmarsh: 3,268 ÷ 11 = 297.09 pupils per school. Redfen: 3,147 ÷ 10 = 314.70 pupils per school. Redfen has more by 17.61 pupils per school.\n\nANSWER: Redfen | 17.61",
+  "answer": [
+    "redfen",
+    17.61
+  ],
+  "unanswered": false,
+  "input_tokens": 11395,
+  "output_tokens": 383,
+  "seconds": 8.393,
+  "samples": [
+    {
+      "text": "Kelmarsh: 3,268 ÷ 11 = 296. **Redfen:** 3,147 ÷ 10 = 314.7. Redfen has more pupils per school by 18.70.\n\nANSWER: Redfen | 18.70",
+      "answer": [
+        "redfen",
+        18.7
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 59
+    },
+    {
+      "text": "Kelmarsh: 3,268 ÷ 11 = 296.ไม่? 296. \\(11 \\times 297 = 3267\\), so 296.999... = 297.00 pupils per school.\n\nRedfen: 3,147 ÷ 10 = 314.70 pupils per school.\n\nDifference: 314.70 − 297.00 = 17.70 pupils per school.\n\nANSWER: Redfen | 17.70",
+      "answer": [
+        "redfen",
+        17.7
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 100
+    },
+    {
+      "text": "Kelmarsh: 3,268 ÷ 11 = 297.09 pupils per school.  \nRedfen: 3,147 ÷ 10 = 314.70 pupils per school.  \nRedfen has more, by 314.70 − 297.09 = 17.61 pupils per school.\n\nANSWER: Redfen | 17.61",
+      "answer": [
+        "redfen",
+        17.61
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 79
+    },
+    {
+      "text": "Kelmarsh: 3,268 ÷ 11 = 297.09 pupils per school.  \nRedfen: 3,147 ÷ 10 = 314.70 pupils per school.  \nRedfen has more, by 314.70 − 297.09 = 17.61 pupils per school.\n\nANSWER: Redfen | 17.61",
+      "answer": [
+        "redfen",
+        17.61
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 79
+    },
+    {
+      "text": "Kelmarsh: 3,268 ÷ 11 = 297.09 pupils per school. Redfen: 3,147 ÷ 10 = 314.70 pupils per school. Redfen has more by 17.61 pupils per school.\n\nANSWER: Redfen | 17.61",
+      "answer": [
+        "redfen",
+        17.61
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 66
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "redfen",
+        17.61
+      ],
+      "votes": 3
+    },
+    {
+      "answer": [
+        "redfen",
+        18.7
+      ],
+      "votes": 1
+    },
+    {
+      "answer": [
+        "redfen",
+        17.7
+      ],
+      "votes": 1
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

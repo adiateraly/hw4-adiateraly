@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-02",
+  "final_text": "ANSWER: Harrowfield | 0.98",
+  "answer": [
+    "harrowfield",
+    0.98
+  ],
+  "unanswered": false,
+  "input_tokens": 2277,
+  "output_tokens": 13,
+  "seconds": 1.183,
+  "correct": false
+}

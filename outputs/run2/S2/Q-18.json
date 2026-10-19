@@ -1,0 +1,93 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-18",
+  "final_text": "Millbrook’s population increased from 34,590 to 37,203, a growth factor of 37,203 ÷ 34,590. Applying the same percentage growth to 2025:\n\n37,203 × (37,203 ÷ 34,590) ≈ 40,011 residents.\n\nThis exceeds 40,000.\n\nANSWER: yes | 40011",
+  "answer": [
+    "yes",
+    40014.0
+  ],
+  "unanswered": false,
+  "input_tokens": 11505,
+  "output_tokens": 438,
+  "seconds": 8.423,
+  "samples": [
+    {
+      "text": "Millbrook’s population grew from 34,590 to 37,203, an increase factor of 37,203 ÷ 34,590 ≈ 1.07554. Applying the same percentage growth to 2025 gives 37,203 × 1.07554 ≈ 40,012 residents. This exceeds 40,000.\n\nANSWER: yes | 40012",
+      "answer": [
+        "yes",
+        40012.0
+      ],
+      "input_tokens": 2301,
+      "output_tokens": 83
+    },
+    {
+      "text": "Millbrook’s population growth from 2020 to 2025 was:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times100 \\approx 7.553\\%\n\\]\n\nApplying the same percentage growth to the 2025 population:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590} \\approx 40,014\n\\]\n\nThis would exceed 40,000 residents.\n\nANSWER: yes | 40014",
+      "answer": [
+        "yes",
+        40014.0
+      ],
+      "input_tokens": 2301,
+      "output_tokens": 102
+    },
+    {
+      "text": "Millbrook’s population grew from 34,590 in 2020 to 37,203 in 2025, an increase of 2,613, or about 7.5536%.\n\nApplying the same percentage growth to 37,203 gives a projected 2030 population of about 40,013 residents. This exceeds 40,000.\n\nANSWER: yes | 40013",
+      "answer": [
+        "yes",
+        40013.0
+      ],
+      "input_tokens": 2301,
+      "output_tokens": 82
+    },
+    {
+      "text": "Millbrook’s population increased from 34,590 in 2020 to 37,203 in 2025, a growth factor of 37,203 ÷ 34,590. Applying the same percentage growth to 2030 gives:\n\n37,203 × (37,203 ÷ 34,590) ≈ 40,014\n\nThis exceeds 40,000 residents.\n\nANSWER: yes | 40014",
+      "answer": [
+        "yes",
+        40014.0
+      ],
+      "input_tokens": 2301,
+      "output_tokens": 90
+    },
+    {
+      "text": "Millbrook’s population increased from 34,590 to 37,203, a growth factor of 37,203 ÷ 34,590. Applying the same percentage growth to 2025:\n\n37,203 × (37,203 ÷ 34,590) ≈ 40,011 residents.\n\nThis exceeds 40,000.\n\nANSWER: yes | 40011",
+      "answer": [
+        "yes",
+        40011.0
+      ],
+      "input_tokens": 2301,
+      "output_tokens": 81
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "yes",
+        40014.0
+      ],
+      "votes": 2
+    },
+    {
+      "answer": [
+        "yes",
+        40012.0
+      ],
+      "votes": 1
+    },
+    {
+      "answer": [
+        "yes",
+        40013.0
+      ],
+      "votes": 1
+    },
+    {
+      "answer": [
+        "yes",
+        40011.0
+      ],
+      "votes": 1
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

@@ -1,0 +1,93 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-14",
+  "final_text": "Tarnvale: \\(5,207,000\\) litres ÷ \\(71,388\\) residents ÷ \\(365\\) days = 0.1999 litres per resident per day.\n\nAshgrove: \\(4,390,000\\) litres ÷ \\(58,760\\) residents ÷ \\(365\\) days = 0.2047 litres per resident per day.\n\nAshgrove used more, by 0.0048 litres per resident per day, which rounds to 0.0 litres at 1 decimal place.\n\nANSWER: Ashgrove | 0.0",
+  "answer": [
+    "ashgrove",
+    4.7
+  ],
+  "unanswered": false,
+  "input_tokens": 11420,
+  "output_tokens": 612,
+  "seconds": 9.903,
+  "samples": [
+    {
+      "text": "Tarnvale: \\(5,207,000 \\div 71,388 \\div 365 \\approx 0.2\\) litres per resident per day.\n\nAshgrove: \\(4,390,000 \\div 58,760 \\div 365 \\approx 0.2\\) litres per resident per day.\n\nTarnvale used slightly more: the difference is approximately 0.0 litres per resident per day when rounded to one decimal place.\n\nANSWER: Tarnvale | 0.0",
+      "answer": [
+        "tarnvale",
+        0.0
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 107
+    },
+    {
+      "text": "Tarnvale: 5,207 megalitres ÷ 71,388 residents ÷ 365 × 1,000 = 199.9 litres per resident per day.\n\nAshgrove: 4,390 megalitres ÷ 58,760 residents ÷ 365 × 1,000 = 204.6 litres per resident per day.\n\nAshgrove used more, by 4.7 litres per resident per day.\n\nANSWER: Ashgrove | 4.7",
+      "answer": [
+        "ashgrove",
+        4.7
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 108
+    },
+    {
+      "text": "Tarnvale: \\(5,207\\) megalitres equals \\(5,207,000,000\\) litres. Dividing by 71,388 residents and 365 days gives about 199.9 litres per resident per day.\n\nAshgrove: \\(4,390\\) megalitres equals \\(4,390,000,000\\) litres. Dividing by 58,760 residents and 365 days gives about 204.6 litres per resident per day.\n\nAshgrove used more, by \\(204.6 - 199.9 = 4.7\\) litres per resident per day.\n\nANSWER: Ashgrove | 4.7",
+      "answer": [
+        "ashgrove",
+        4.7
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 144
+    },
+    {
+      "text": "Tarnvale: \\(5,207\\) megalitres ÷ \\(71,388\\) residents ÷ 365 days × 1,000 = 0.2 litres per resident per day.\n\nAshgrove: \\(4,390\\) megalitres ÷ \\(58,760\\) residents ÷ 365 days × 1,000 = 0.2 litres per resident per day.\n\nTarnvale used slightly more: the difference is 0.2 litres per resident per day when rounded to one decimal place.\n\nANSWER: Tarnvale | 0.2",
+      "answer": [
+        "tarnvale",
+        0.2
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 126
+    },
+    {
+      "text": "Tarnvale: \\(5,207,000\\) litres ÷ \\(71,388\\) residents ÷ \\(365\\) days = 0.1999 litres per resident per day.\n\nAshgrove: \\(4,390,000\\) litres ÷ \\(58,760\\) residents ÷ \\(365\\) days = 0.2047 litres per resident per day.\n\nAshgrove used more, by 0.0048 litres per resident per day, which rounds to 0.0 litres at 1 decimal place.\n\nANSWER: Ashgrove | 0.0",
+      "answer": [
+        "ashgrove",
+        0.0
+      ],
+      "input_tokens": 2284,
+      "output_tokens": 127
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "ashgrove",
+        4.7
+      ],
+      "votes": 2
+    },
+    {
+      "answer": [
+        "tarnvale",
+        0.0
+      ],
+      "votes": 1
+    },
+    {
+      "answer": [
+        "tarnvale",
+        0.2
+      ],
+      "votes": 1
+    },
+    {
+      "answer": [
+        "ashgrove",
+        0.0
+      ],
+      "votes": 1
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": false
+}

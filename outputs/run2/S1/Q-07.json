@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-07",
+  "final_text": "Coldharbour has more paved road per 1,000 residents, by 3.63 km per 1,000 residents.\n\nANSWER: Coldharbour | 3.63",
+  "answer": [
+    "coldharbour",
+    3.63
+  ],
+  "unanswered": false,
+  "input_tokens": 2281,
+  "output_tokens": 40,
+  "seconds": 1.616,
+  "correct": false
+}

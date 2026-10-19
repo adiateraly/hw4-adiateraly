@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-05",
+  "final_text": "Coldharbour | 3 tenge per resident\nANSWER: Coldharbour | 3",
+  "answer": [
+    "coldharbour",
+    3.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2273,
+  "output_tokens": 22,
+  "seconds": 1.432,
+  "correct": false
+}

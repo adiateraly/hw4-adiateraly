@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-03",
+  "final_text": "Lindenmoor: 2025 water use was 2,151,400 cubic metres, or 2,151,400,000 litres. Per resident per day: 2,151,400,000 ÷ 29,051 ÷ 365 = 202.8 litres. Kelmarsh: 1,739,000,000 ÷ 24,117 ÷ 365 = 197.6 litres. Difference: 5.2 litres per resident per day.\n\nANSWER: Lindenmoor | 5.2",
+  "answer": [
+    "lindenmoor",
+    5.2
+  ],
+  "unanswered": false,
+  "input_tokens": 2277,
+  "output_tokens": 113,
+  "seconds": 1.595,
+  "correct": true
+}

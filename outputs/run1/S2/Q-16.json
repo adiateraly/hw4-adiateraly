@@ -1,0 +1,72 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-16",
+  "final_text": "Ossbridge and Ossford together cover 1,284.6 + 846.2 = 2,130.8 square kilometres. Tarnvale covers 2,106.9 square kilometres, so the combined area is larger by 23.9 square kilometres.\n\nANSWER: yes | 23.9",
+  "answer": [
+    "yes",
+    23.9
+  ],
+  "unanswered": false,
+  "input_tokens": 11390,
+  "output_tokens": 291,
+  "seconds": 6.927,
+  "samples": [
+    {
+      "text": "Ossbridge and Ossford have a combined area of 2,130.8 square kilometres. Tarnvale covers 2,106.9 square kilometres, so the combined area is larger by 23.9 square kilometres.\n\nANSWER: yes | 23.9",
+      "answer": [
+        "yes",
+        23.9
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 57
+    },
+    {
+      "text": "Ossbridge and Ossford have a combined area of 2,130.8 square kilometres. Tarnvale covers 2,106.9 square kilometres, so the combined area is larger by 23.9 square kilometres.\n\nANSWER: yes | 23.9",
+      "answer": [
+        "yes",
+        23.9
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 57
+    },
+    {
+      "text": "Ossbridge and Ossford together cover 2,130.8 square kilometres. Tarnvale covers 2,106.9 square kilometres, so the combined area is larger by 23.9 square kilometres.\n\nANSWER: yes | 23.9",
+      "answer": [
+        "yes",
+        23.9
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 54
+    },
+    {
+      "text": "Ossbridge and Ossford have a combined area of 2,130.8 square kilometres. Tarnvale covers 2,106.9 square kilometres, so the combined area is larger by 23.9 square kilometres.\n\nANSWER: yes | 23.9",
+      "answer": [
+        "yes",
+        23.9
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 57
+    },
+    {
+      "text": "Ossbridge and Ossford together cover 1,284.6 + 846.2 = 2,130.8 square kilometres. Tarnvale covers 2,106.9 square kilometres, so the combined area is larger by 23.9 square kilometres.\n\nANSWER: yes | 23.9",
+      "answer": [
+        "yes",
+        23.9
+      ],
+      "input_tokens": 2278,
+      "output_tokens": 66
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "yes",
+        23.9
+      ],
+      "votes": 5
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

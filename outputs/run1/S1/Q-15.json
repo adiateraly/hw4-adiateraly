@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-15",
+  "final_text": "Kelmarsh has 296.36 pupils per school, compared with Redfen’s 314.70, a difference of 18.34 pupils per school.  \nANSWER: Redfen | 18.34",
+  "answer": [
+    "redfen",
+    18.34
+  ],
+  "unanswered": false,
+  "input_tokens": 2272,
+  "output_tokens": 46,
+  "seconds": 1.466,
+  "correct": false
+}

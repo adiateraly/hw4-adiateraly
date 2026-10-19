@@ -1,0 +1,72 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-10",
+  "final_text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845. Stonecairn is therefore 8 years older.\n\nANSWER: Stonecairn | 8",
+  "answer": [
+    "stonecairn",
+    8.0
+  ],
+  "unanswered": false,
+  "input_tokens": 11375,
+  "output_tokens": 226,
+  "seconds": 6.814,
+  "samples": [
+    {
+      "text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845. Therefore, Stonecairn is 8 years older.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "stonecairn",
+        8.0
+      ],
+      "input_tokens": 2275,
+      "output_tokens": 46
+    },
+    {
+      "text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845. Stonecairn is therefore 8 years older.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "stonecairn",
+        8.0
+      ],
+      "input_tokens": 2275,
+      "output_tokens": 45
+    },
+    {
+      "text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845. Stonecairn is therefore 8 years older.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "stonecairn",
+        8.0
+      ],
+      "input_tokens": 2275,
+      "output_tokens": 45
+    },
+    {
+      "text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845. Stonecairn is therefore 8 years older.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "stonecairn",
+        8.0
+      ],
+      "input_tokens": 2275,
+      "output_tokens": 45
+    },
+    {
+      "text": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845. Stonecairn is therefore 8 years older.\n\nANSWER: Stonecairn | 8",
+      "answer": [
+        "stonecairn",
+        8.0
+      ],
+      "input_tokens": 2275,
+      "output_tokens": 45
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "stonecairn",
+        8.0
+      ],
+      "votes": 5
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-14",
+  "final_text": "Ashgrove used more: 199.8 − 199.8 = 0.0 litres per resident per day.\n\nANSWER: Ashgrove | 0.0",
+  "answer": [
+    "ashgrove",
+    0.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2277,
+  "output_tokens": 39,
+  "seconds": 1.72,
+  "correct": false
+}

@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-08",
+  "final_text": "ANSWER: Brightwater | 72.38",
+  "answer": [
+    "brightwater",
+    72.38
+  ],
+  "unanswered": false,
+  "input_tokens": 2279,
+  "output_tokens": 12,
+  "seconds": 1.126,
+  "correct": false
+}

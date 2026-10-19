@@ -1,0 +1,72 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-04",
+  "final_text": "Ashgrove: 8,837 ÷ 24 = 368.21 pupils per school.  \nMillbrook: 5,562 ÷ 15 = 370.80 pupils per school.  \nDifference: 370.80 − 368.21 = 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+  "answer": [
+    "millbrook",
+    2.59
+  ],
+  "unanswered": false,
+  "input_tokens": 11395,
+  "output_tokens": 361,
+  "seconds": 7.638,
+  "samples": [
+    {
+      "text": "Ashgrove: 8,837 ÷ 24 = 368.21 pupils per school.  \nMillbrook: 5,562 ÷ 15 = 370.80 pupils per school.  \nMillbrook has more, by 370.80 − 368.21 = 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+      "answer": [
+        "millbrook",
+        2.59
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 79
+    },
+    {
+      "text": "Ashgrove: 8,837 ÷ 24 = 368.21 pupils per school.  \nMillbrook: 5,562 ÷ 15 = 370.80 pupils per school.  \nMillbrook has more, by 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+      "answer": [
+        "millbrook",
+        2.59
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 69
+    },
+    {
+      "text": "Ashgrove: 8,837 ÷ 24 = 368.21 pupils per school.  \nMillbrook: 5,562 ÷ 15 = 370.80 pupils per school.  \nMillbrook has more, by 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+      "answer": [
+        "millbrook",
+        2.59
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 69
+    },
+    {
+      "text": "Ashgrove: 8,837 ÷ 24 = 368.21 pupils per school.  \nMillbrook: 5,562 ÷ 15 = 370.80 pupils per school.  \nMillbrook has more, by 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+      "answer": [
+        "millbrook",
+        2.59
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 69
+    },
+    {
+      "text": "Ashgrove: 8,837 ÷ 24 = 368.21 pupils per school.  \nMillbrook: 5,562 ÷ 15 = 370.80 pupils per school.  \nDifference: 370.80 − 368.21 = 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+      "answer": [
+        "millbrook",
+        2.59
+      ],
+      "input_tokens": 2279,
+      "output_tokens": 75
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "millbrook",
+        2.59
+      ],
+      "votes": 5
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

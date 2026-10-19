@@ -1,0 +1,130 @@
+{
+  "strategy": "S3",
+  "question_id": "Q-10",
+  "final_text": "Stonecairn is older by 8 years.\n\nANSWER: Stonecairn | 8",
+  "answer": [
+    "stonecairn",
+    8.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2806,
+  "output_tokens": 106,
+  "seconds": 4.092,
+  "calls": [
+    {
+      "round": 1,
+      "tool_call_id": "call_fgxDPQVjkbn4o8nctDRd1dny",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Stonecairn\", \"field\": \"founded_year\"}",
+      "result": {
+        "district": "Stonecairn",
+        "field": "founded_year",
+        "value": 1837,
+        "unit": "year",
+        "source": "NR-06"
+      },
+      "seconds": 4.8e-05
+    },
+    {
+      "round": 1,
+      "tool_call_id": "call_njCNpBZrULpq3juXsAANBace",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Coldharbour\", \"field\": \"founded_year\"}",
+      "result": {
+        "district": "Coldharbour",
+        "field": "founded_year",
+        "value": 1845,
+        "unit": "year",
+        "source": "NR-12"
+      },
+      "seconds": 2.7e-05
+    },
+    {
+      "round": 2,
+      "tool_call_id": "call_nmmW8LAojYKzkV5oOKnh5sQO",
+      "tool": "calculate",
+      "arguments": "{\"expression\":\"1845 - 1837\"}",
+      "result": {
+        "expression": "1845 - 1837",
+        "result": 8
+      },
+      "seconds": 0.0001
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "input_tokens": 818,
+      "output_tokens": 62,
+      "tool_calls": 2
+    },
+    {
+      "round": 2,
+      "input_tokens": 970,
+      "output_tokens": 21,
+      "tool_calls": 1
+    },
+    {
+      "round": 3,
+      "input_tokens": 1018,
+      "output_tokens": 23,
+      "tool_calls": 0
+    }
+  ],
+  "number_of_rounds": 3,
+  "hit_round_limit": false,
+  "conversation": [
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_fgxDPQVjkbn4o8nctDRd1dny",
+          "function": {
+            "arguments": "{\"district\": \"Stonecairn\", \"field\": \"founded_year\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_njCNpBZrULpq3juXsAANBace",
+          "function": {
+            "arguments": "{\"district\": \"Coldharbour\", \"field\": \"founded_year\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fgxDPQVjkbn4o8nctDRd1dny",
+      "content": "{\"district\": \"Stonecairn\", \"field\": \"founded_year\", \"value\": 1837, \"unit\": \"year\", \"source\": \"NR-06\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_njCNpBZrULpq3juXsAANBace",
+      "content": "{\"district\": \"Coldharbour\", \"field\": \"founded_year\", \"value\": 1845, \"unit\": \"year\", \"source\": \"NR-12\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_nmmW8LAojYKzkV5oOKnh5sQO",
+          "function": {
+            "arguments": "{\"expression\":\"1845 - 1837\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_nmmW8LAojYKzkV5oOKnh5sQO",
+      "content": "{\"expression\": \"1845 - 1837\", \"result\": 8}"
+    }
+  ],
+  "correct": true
+}

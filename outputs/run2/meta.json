@@ -1,0 +1,9 @@
+{
+  "model": "gpt-5.6-luna",
+  "k": 5,
+  "s2_temperature_wanted": 1.0,
+  "temperature_supported": true,
+  "max_rounds": 15,
+  "reasoning_effort": "none",
+  "saved_at": "2026-10-17 23:21:10"
+}

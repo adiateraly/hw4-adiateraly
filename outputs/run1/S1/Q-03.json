@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-03",
+  "final_text": "Lindenmoor: 0.5 litres per resident per day more.  \nANSWER: Lindenmoor | 0.5",
+  "answer": [
+    "lindenmoor",
+    0.5
+  ],
+  "unanswered": false,
+  "input_tokens": 2277,
+  "output_tokens": 28,
+  "seconds": 1.275,
+  "correct": false
+}

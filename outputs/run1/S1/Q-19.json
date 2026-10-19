@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-19",
+  "final_text": "Redfen, by 0.033 km per square kilometre\nANSWER: Redfen | 0.033",
+  "answer": [
+    "redfen",
+    0.033
+  ],
+  "unanswered": false,
+  "input_tokens": 2271,
+  "output_tokens": 26,
+  "seconds": 1.535,
+  "correct": false
+}

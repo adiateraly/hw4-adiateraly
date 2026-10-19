@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-15",
+  "final_text": "Redfen has more pupils per school by 24.70 pupils per school.\n\nANSWER: Redfen | 24.70",
+  "answer": [
+    "redfen",
+    24.7
+  ],
+  "unanswered": false,
+  "input_tokens": 2272,
+  "output_tokens": 28,
+  "seconds": 1.078,
+  "correct": false
+}

@@ -1,0 +1,11 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-02",
+  "final_text": "Harrowfield | 0.10",
+  "answer": null,
+  "unanswered": true,
+  "input_tokens": 2277,
+  "output_tokens": 11,
+  "seconds": 1.431,
+  "correct": false
+}

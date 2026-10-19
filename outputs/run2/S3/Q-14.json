@@ -1,0 +1,184 @@
+{
+  "strategy": "S3",
+  "question_id": "Q-14",
+  "final_text": "Ashgrove used more water per resident per day, by 4.9 litres.\n\nANSWER: Ashgrove | 4.9",
+  "answer": [
+    "ashgrove",
+    4.9
+  ],
+  "unanswered": false,
+  "input_tokens": 3153,
+  "output_tokens": 183,
+  "seconds": 4.166,
+  "calls": [
+    {
+      "round": 1,
+      "tool_call_id": "call_CAAaMmEWudWMpgWH4lSilfSz",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Tarnvale\", \"field\": \"water_use_megalitres\"}",
+      "result": {
+        "district": "Tarnvale",
+        "field": "water_use_megalitres",
+        "value": 5207,
+        "unit": "megalitres",
+        "source": "NR-03"
+      },
+      "seconds": 5.7e-05
+    },
+    {
+      "round": 1,
+      "tool_call_id": "call_ww1tFRlqhBWwBm0pG7pwS0rt",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Tarnvale\", \"field\": \"population_2025\"}",
+      "result": {
+        "district": "Tarnvale",
+        "field": "population_2025",
+        "value": 71388,
+        "unit": "residents",
+        "source": "NR-03"
+      },
+      "seconds": 2.9e-05
+    },
+    {
+      "round": 1,
+      "tool_call_id": "call_4YWIdBwqhGmmqd8hThCIKBSK",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Ashgrove\", \"field\": \"water_use_megalitres\"}",
+      "result": {
+        "district": "Ashgrove",
+        "field": "water_use_megalitres",
+        "value": 4390,
+        "unit": "megalitres",
+        "source": "NR-10"
+      },
+      "seconds": 2.5e-05
+    },
+    {
+      "round": 1,
+      "tool_call_id": "call_M441vLNNphKCbJK8gpJAm32f",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Ashgrove\", \"field\": \"population_2025\"}",
+      "result": {
+        "district": "Ashgrove",
+        "field": "population_2025",
+        "value": 58760,
+        "unit": "residents",
+        "source": "NR-10"
+      },
+      "seconds": 2.3e-05
+    },
+    {
+      "round": 2,
+      "tool_call_id": "call_Tr8OhJdAXM2daUtKk8dzmGEl",
+      "tool": "calculate",
+      "arguments": "{\"expression\":\"(5207*1000000/(71388*365))-(4390*1000000/(58760*365))\"}",
+      "result": {
+        "expression": "(5207*1000000/(71388*365))-(4390*1000000/(58760*365))",
+        "result": -4.8527614974
+      },
+      "seconds": 0.000165
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "input_tokens": 827,
+      "output_tokens": 111,
+      "tool_calls": 4
+    },
+    {
+      "round": 2,
+      "input_tokens": 1117,
+      "output_tokens": 41,
+      "tool_calls": 1
+    },
+    {
+      "round": 3,
+      "input_tokens": 1209,
+      "output_tokens": 31,
+      "tool_calls": 0
+    }
+  ],
+  "number_of_rounds": 3,
+  "hit_round_limit": false,
+  "conversation": [
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_CAAaMmEWudWMpgWH4lSilfSz",
+          "function": {
+            "arguments": "{\"district\": \"Tarnvale\", \"field\": \"water_use_megalitres\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_ww1tFRlqhBWwBm0pG7pwS0rt",
+          "function": {
+            "arguments": "{\"district\": \"Tarnvale\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_4YWIdBwqhGmmqd8hThCIKBSK",
+          "function": {
+            "arguments": "{\"district\": \"Ashgrove\", \"field\": \"water_use_megalitres\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_M441vLNNphKCbJK8gpJAm32f",
+          "function": {
+            "arguments": "{\"district\": \"Ashgrove\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_CAAaMmEWudWMpgWH4lSilfSz",
+      "content": "{\"district\": \"Tarnvale\", \"field\": \"water_use_megalitres\", \"value\": 5207, \"unit\": \"megalitres\", \"source\": \"NR-03\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ww1tFRlqhBWwBm0pG7pwS0rt",
+      "content": "{\"district\": \"Tarnvale\", \"field\": \"population_2025\", \"value\": 71388, \"unit\": \"residents\", \"source\": \"NR-03\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_4YWIdBwqhGmmqd8hThCIKBSK",
+      "content": "{\"district\": \"Ashgrove\", \"field\": \"water_use_megalitres\", \"value\": 4390, \"unit\": \"megalitres\", \"source\": \"NR-10\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_M441vLNNphKCbJK8gpJAm32f",
+      "content": "{\"district\": \"Ashgrove\", \"field\": \"population_2025\", \"value\": 58760, \"unit\": \"residents\", \"source\": \"NR-10\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_Tr8OhJdAXM2daUtKk8dzmGEl",
+          "function": {
+            "arguments": "{\"expression\":\"(5207*1000000/(71388*365))-(4390*1000000/(58760*365))\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Tr8OhJdAXM2daUtKk8dzmGEl",
+      "content": "{\"expression\": \"(5207*1000000/(71388*365))-(4390*1000000/(58760*365))\", \"result\": -4.8527614974}"
+    }
+  ],
+  "correct": true
+}

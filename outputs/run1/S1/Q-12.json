@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-12",
+  "final_text": "Harrowfield, by 0.7 thousand tenge per pupil\n\nANSWER: Harrowfield | 0.7",
+  "answer": [
+    "harrowfield",
+    0.7
+  ],
+  "unanswered": false,
+  "input_tokens": 2274,
+  "output_tokens": 28,
+  "seconds": 1.29,
+  "correct": false
+}

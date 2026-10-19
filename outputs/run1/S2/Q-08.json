@@ -1,0 +1,72 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-08",
+  "final_text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres. The difference was 509 megalitres, or 509,000 cubic metres. At 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,? Wait compute: 142.35 × 509,000 = 72,? 142.35×509 = 72,? 142.35×500=71,175; ×9=1,281.15; total 72,456.15 thousand tenge = 72.45615 million tenge, which rounds to 72.46 million tenge.\n\nANSWER: Brightwater | 72.46",
+  "answer": [
+    "brightwater",
+    72.46
+  ],
+  "unanswered": false,
+  "input_tokens": 11430,
+  "output_tokens": 747,
+  "seconds": 10.861,
+  "samples": [
+    {
+      "text": "Brightwater’s households used 3,315 megalitres, while Millbrook’s used 2,806 megalitres. The difference is 509 megalitres, or 509,000 cubic metres. At 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,255,? Wait calculate: 142.35 × 509,000 = 72,? 142.35 × 509 = 72,? 142.35×500=71,175; ×9=1,281.15; total 72,456.15 thousand tenge = 72.45615 million tenge, which rounds to 72.46 million tenge.\n\nANSWER: Brightwater | 72.46",
+      "answer": [
+        "brightwater",
+        72.46
+      ],
+      "input_tokens": 2286,
+      "output_tokens": 164
+    },
+    {
+      "text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres. The difference is 509 megalitres, or 509,000 cubic metres. At 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,456,150 tenge = 72.46 million tenge.\n\nANSWER: Brightwater | 72.46",
+      "answer": [
+        "brightwater",
+        72.46
+      ],
+      "input_tokens": 2286,
+      "output_tokens": 92
+    },
+    {
+      "text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres. The difference was 509 megalitres, or 509,000 cubic metres. At 142.35 tenge per cubic metre, the difference was 72,455,? Wait: 509,000 × 142.35 = 72,? \n\n509 × 142.35 = 72,? 142.35 × 500 = 71,175; ×9 = 1,281.15; total 72,456.15 thousand tenge = 72.45615 million tenge, which rounds to 72.46 million tenge. Brightwater's households paid more.\n\nANSWER: Brightwater | 72.46",
+      "answer": [
+        "brightwater",
+        72.46
+      ],
+      "input_tokens": 2286,
+      "output_tokens": 164
+    },
+    {
+      "text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres. The difference is 509 megalitres, or 509,000 cubic metres. At 142.35 tenge per cubic metre, the difference in payment was 72,454,? Wait: 509,000 × 142.35 = 72,? 142.35 × 509 = 72,? 142.35×500=71,175; ×9=1,281.15; total 72,456.15 thousand tenge = 72.45615 million tenge, which rounds to 72.46 million tenge. Millbrook paid less, so Brightwater's households paid more.\n\nANSWER: Brightwater | 72.46",
+      "answer": [
+        "brightwater",
+        72.46
+      ],
+      "input_tokens": 2286,
+      "output_tokens": 169
+    },
+    {
+      "text": "Brightwater used 3,315 megalitres, while Millbrook used 2,806 megalitres. The difference was 509 megalitres, or 509,000 cubic metres. At 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,? Wait compute: 142.35 × 509,000 = 72,? 142.35×509 = 72,? 142.35×500=71,175; ×9=1,281.15; total 72,456.15 thousand tenge = 72.45615 million tenge, which rounds to 72.46 million tenge.\n\nANSWER: Brightwater | 72.46",
+      "answer": [
+        "brightwater",
+        72.46
+      ],
+      "input_tokens": 2286,
+      "output_tokens": 158
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "brightwater",
+        72.46
+      ],
+      "votes": 5
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-20",
+  "final_text": "Harrowfield; 85 tenge per resident\nANSWER: Harrowfield | 85",
+  "answer": [
+    "harrowfield",
+    85.0
+  ],
+  "unanswered": false,
+  "input_tokens": 2284,
+  "output_tokens": 22,
+  "seconds": 1.205,
+  "correct": false
+}

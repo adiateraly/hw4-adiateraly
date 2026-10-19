@@ -1,0 +1,79 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-07",
+  "final_text": "Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.45 km per 1,000 residents.\n\nStonecairn: 506.8 ÷ 14,926 × 1,000 = 33.96 km per 1,000 residents.\n\nColdharbour has more by 18.49 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.49",
+  "answer": [
+    "coldharbour",
+    18.49
+  ],
+  "unanswered": false,
+  "input_tokens": 11440,
+  "output_tokens": 496,
+  "seconds": 8.566,
+  "samples": [
+    {
+      "text": "Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.45 km per 1,000 residents.\n\nStonecairn: 506.8 ÷ 14,926 × 1,000 = 33.95 km per 1,000 residents.\n\nColdharbour has more by 18.50 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.50",
+      "answer": [
+        "coldharbour",
+        18.5
+      ],
+      "input_tokens": 2288,
+      "output_tokens": 96
+    },
+    {
+      "text": "Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.45 km per 1,000 residents.\n\nStonecairn: 506.8 ÷ 14,926 × 1,000 = 33.96 km per 1,000 residents.\n\nColdharbour has more by 18.49 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.49",
+      "answer": [
+        "coldharbour",
+        18.49
+      ],
+      "input_tokens": 2288,
+      "output_tokens": 96
+    },
+    {
+      "text": "Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.46 km per 1,000 residents.  \nStonecairn: 506.8 ÷ 14,926 × 1,000 = 33.96 km per 1,000 residents.  \nDifference: 52.46 − 33.96 = 18.50 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.50",
+      "answer": [
+        "coldharbour",
+        18.5
+      ],
+      "input_tokens": 2288,
+      "output_tokens": 104
+    },
+    {
+      "text": "Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.45 km per 1,000 residents.  \nStonecairn: 506.8 ÷ 14,926 × 1,000 = 33.96 km per 1,000 residents.  \nDifference: 52.45 − 33.96 = 18.49 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.49",
+      "answer": [
+        "coldharbour",
+        18.49
+      ],
+      "input_tokens": 2288,
+      "output_tokens": 104
+    },
+    {
+      "text": "Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.45 km per 1,000 residents.\n\nStonecairn: 506.8 ÷ 14,926 × 1,000 = 33.96 km per 1,000 residents.\n\nColdharbour has more by 18.49 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.49",
+      "answer": [
+        "coldharbour",
+        18.49
+      ],
+      "input_tokens": 2288,
+      "output_tokens": 96
+    }
+  ],
+  "votes": [
+    {
+      "answer": [
+        "coldharbour",
+        18.49
+      ],
+      "votes": 3
+    },
+    {
+      "answer": [
+        "coldharbour",
+        18.5
+      ],
+      "votes": 2
+    }
+  ],
+  "k": 5,
+  "temperature_used": true,
+  "correct": true
+}

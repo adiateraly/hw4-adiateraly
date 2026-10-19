@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-09",
+  "final_text": "Brightwater has the higher population density by 0.4 residents per square kilometre.\n\nANSWER: Brightwater | 0.4",
+  "answer": [
+    "brightwater",
+    0.4
+  ],
+  "unanswered": false,
+  "input_tokens": 2271,
+  "output_tokens": 30,
+  "seconds": 1.226,
+  "correct": false
+}

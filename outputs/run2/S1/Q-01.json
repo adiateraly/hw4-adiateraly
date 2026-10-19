@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-01",
+  "final_text": "Ossbridge has the higher population density by 4.7 residents per square kilometre.\n\nANSWER: Ossbridge | 4.7",
+  "answer": [
+    "ossbridge",
+    4.7
+  ],
+  "unanswered": false,
+  "input_tokens": 2271,
+  "output_tokens": 31,
+  "seconds": 2.872,
+  "correct": true
+}

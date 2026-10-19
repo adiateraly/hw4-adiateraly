@@ -1,0 +1,14 @@
+{
+  "strategy": "S1",
+  "question_id": "Q-07",
+  "final_text": "Coldharbour — 32.07 km per 1,000 residents more than Stonecairn.\nANSWER: Coldharbour | 32.07",
+  "answer": [
+    "coldharbour",
+    32.07
+  ],
+  "unanswered": false,
+  "input_tokens": 2281,
+  "output_tokens": 35,
+  "seconds": 1.386,
+  "correct": false
+}
